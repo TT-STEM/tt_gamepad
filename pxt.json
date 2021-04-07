@@ -8,6 +8,7 @@
     },
     "files": [
         "main.ts",
+        "gamerpad.cpp",
         "README.md"
     ],
     "testFiles": [
