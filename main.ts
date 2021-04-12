@@ -43,7 +43,7 @@ enum JoystickEvent {
 
     //% block="←"
     West = DAL.MES_DPAD_BUTTON_2_DOWN,
-    //% block="centre"
+    //% block="●"
     Centre = DAL.MES_DPAD_BUTTON_C_UP,
     //% block="→"
     East = DAL.MES_DPAD_BUTTON_4_DOWN,
