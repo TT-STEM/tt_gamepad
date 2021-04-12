@@ -3,13 +3,13 @@
  */
 //%
 enum GamerBitPin {
-    //% block="G-PAD up"
+    //% block="G-PAD red"
     P15 = DAL.MICROBIT_ID_IO_P15,
-    //% block="G-PAD down"
+    //% block="G-PAD green"
     P13 = DAL.MICROBIT_ID_IO_P13,
-    //% block="G-PAD left"
+    //% block="G-PAD blue"
     P16 = DAL.MICROBIT_ID_IO_P16,
-    //% block="G-PAD right"
+    //% block="G-PAD yellow"
     P14 = DAL.MICROBIT_ID_IO_P14,
 
     //% block="G-PAD joystick"
@@ -34,25 +34,25 @@ enum GamerBitEvent {
  */
 //%
 enum JoystickEvent {
-    //% block="north-west"
+    //% block="↖"
     North_West = DAL.MES_DPAD_BUTTON_A_DOWN,
-    //% block="north"
+    //% block="↑"
     North = DAL.MES_DPAD_BUTTON_1_DOWN,
-    //% block="north-east"
+    //% block="↗"
     North_East = DAL.MES_DPAD_BUTTON_D_DOWN,
 
-    //% block="west"
+    //% block="←"
     West = DAL.MES_DPAD_BUTTON_2_DOWN,
-    //% block="centre"
+    //% block="◎"
     Centre = DAL.MES_DPAD_BUTTON_C_UP,
-    //% block="east"
+    //% block="→"
     East = DAL.MES_DPAD_BUTTON_4_DOWN,
 
-    //% block="south-west"
+    //% block="↙"
     South_West = DAL.MES_DPAD_BUTTON_B_DOWN,
-    //% block="south"
+    //% block="↓"
     South = DAL.MES_DPAD_BUTTON_3_DOWN,
-    //% block="south-east"
+    //% block="↘"
     South_East = DAL.MES_DPAD_BUTTON_C_DOWN,
 }
 
